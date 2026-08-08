@@ -1,15 +1,9 @@
-# Trader Reset AI V1
-Mobile-first prototype for trading discipline.
+# Trader Reset AI V2
 
-Open `index.html` in a browser. Data is stored locally in the browser.
+Mobile-first prop-firm discipline dashboard prototype.
 
-V1 includes:
-- Discipline score
-- 7-point pre-trade checklist
-- Trade journal
-- R tracking
-- Rule-break tracking
-- Daily lock after 3 trades and -2R
-- Review dashboard
+Upload these four files to the repository root: index.html, style.css, app.js, README.md.
 
-V2 can add real AI, screenshot analysis, cloud accounts, analytics, and MT5/TradingView integrations.
+The Mentor ID screen is a prototype. It remembers a successful entry locally, but this is NOT secure authentication. For the real V2, connect the button to a backend/database that validates Mentor IDs and creates an authenticated user session.
+
+GitHub Pages: Settings > Pages > Deploy from branch > main > /(root).
